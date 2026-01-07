@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Decentralized Voting</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/web3@1.10.0/dist/web3.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+    <div class="card">
+        <h1>Decentralized Voting</h1>
+        <p class="subtitle">Transparent elections powered by blockchain</p>
+
+        <div class="section">
+            <button class="primary" onclick="connectWallet()">Connect MetaMask</button>
+            <p id="account" class="info"></p>
+        </div>
+
+        <div class="section">
+            <h2>Candidates</h2>
+            <ul id="candidateList"></ul>
+        </div>
+    </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
